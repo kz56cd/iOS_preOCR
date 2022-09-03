@@ -22,6 +22,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("OCR sample")
+                .font(.largeTitle)
             AsyncImage(url: ContentView.sampleUrl) { image in
                 image.resizable()
             } placeholder: {
@@ -34,7 +35,7 @@ struct ContentView: View {
                 self.startOCR()
             } label: {
                 Text("start OCR")
-                    .font(.largeTitle)
+                    .font(.title)
             }
             Spacer(minLength: 50)
 

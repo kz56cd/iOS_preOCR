@@ -14,6 +14,7 @@
 		EA716F1E28C2F50800393BA0 /* preOCRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA716F1D28C2F50800393BA0 /* preOCRTests.swift */; };
 		EA716F2828C2F50800393BA0 /* preOCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA716F2728C2F50800393BA0 /* preOCRUITests.swift */; };
 		EA716F2A28C2F50800393BA0 /* preOCRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA716F2928C2F50800393BA0 /* preOCRUITestsLaunchTests.swift */; };
+		EA90EFC028C30CD3000C3BBB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EA90EFBF28C30CD3000C3BBB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EA716F2328C2F50800393BA0 /* preOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = preOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA716F2728C2F50800393BA0 /* preOCRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preOCRUITests.swift; sourceTree = "<group>"; };
 		EA716F2928C2F50800393BA0 /* preOCRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preOCRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA90EFBF28C30CD3000C3BBB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		EA716F0028C2F50500393BA0 = {
 			isa = PBXGroup;
 			children = (
+				EA90EFBF28C30CD3000C3BBB /* README.md */,
 				EA716F0B28C2F50500393BA0 /* preOCR */,
 				EA716F1C28C2F50800393BA0 /* preOCRTests */,
 				EA716F2628C2F50800393BA0 /* preOCRUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA90EFC028C30CD3000C3BBB /* README.md in Resources */,
 				EA716F1428C2F50700393BA0 /* Preview Assets.xcassets in Resources */,
 				EA716F1128C2F50700393BA0 /* Assets.xcassets in Resources */,
 			);
